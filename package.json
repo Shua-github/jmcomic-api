@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-jmcomic-api",
-  "description": "调用API发送jm本子。",
-  "version": "0.0.1",
+  "description": "获取JM漫画!支持加密、缓存、获取漫画信息!简单易上手!后端部署只需两步![<ruby>**点我看后端教程**</ruby>](https://github.com/Shua-github/JMComic-API-Python)",
+  "version": "0.2.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,13 +9,15 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "nonebot2",
+    "nonebot",
+    "jmcomic",
+    "nsfw"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.18.7"
   }
