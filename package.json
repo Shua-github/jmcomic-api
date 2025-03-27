@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-jmcomic-api",
-  "description": "获取JM漫画!支持加密、缓存、获取漫画信息!简单易上手!后端部署只需两步![<ruby>**点我看后端教程**</ruby>](https://github.com/Shua-github/JMComic-API-Python)",
-  "version": "0.2.1",
+  "description": "JM-API",
+  "version": "0.2.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -18,6 +18,16 @@
     "jmcomic",
     "nsfw"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shua-github/jmcomic-api.gif"
+  },
+  "koishi": {
+    "description": {
+      "en": "JM-API",
+      "zh": "获取JM漫画!支持加密、缓存、获取漫画信息!简单易上手!后端部署只需两步![<ruby>**点我看后端教程**</ruby>](https://github.com/Shua-github/JMComic-API-Python)"
+    }
+  },
   "peerDependencies": {
     "koishi": "^4.18.7"
   }
